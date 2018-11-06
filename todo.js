@@ -15,6 +15,7 @@ function deleteToDos(event) {
     });
     toDos = filteredToDos;
     saveToDos();
+    toDoInput.classList.remove("toDoInput_hide");
 }
 
 function saveToDos() {
@@ -39,6 +40,7 @@ function paintToDos(text) {
     };
     toDos.push(toDoObject);
     saveToDos();
+    toDoInput.classList.add("toDoInput_hide");
 }
 
 function handleSubmit(event) {

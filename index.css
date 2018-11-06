@@ -70,12 +70,17 @@ body {
     text-align: center;
 }
 
+.toDoInput_hide {
+    display: none;
+}
+
 .js-toDoForm input::placeholder {
     color: white;
 }
 
 .js-toDoList {
     padding: 0;
+    margin-top: 70px;
 }
 
 .js-toDoList li {
@@ -114,4 +119,4 @@ body {
     top: 30px;
     right: 30px;
     font-size: 17px;
-}}
+}
